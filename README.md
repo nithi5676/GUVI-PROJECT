@@ -62,10 +62,6 @@ On clicking update, you’re redirected to update.php
 2.	Download PHP_MONGODB driver (DLL) file from the website
 3.	Download composer for downloading other dependency file related to redis and MONGODB
 
-<img width="1136" alt="Screenshot 2022-11-13 at 10 51 58 AM" src="https://user-images.githubusercontent.com/87518099/201507150-67047aff-1f72-4942-aff0-d555b256ab06.png">
-
-Click the link to view the session data stored in localStorage. It takes you to “readstorage.php”
-
 # Readstorage.php
 1.	Show all the localStorage session variable marks in table format
 2.	Option is given to delete all session data from localStorage
