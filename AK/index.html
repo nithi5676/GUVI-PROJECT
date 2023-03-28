@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container d-flex flex-column justify-content-center align-items-center" style="height: 100vh;">
+        <h1>Welcome to the Home Page</h1>
+        <p>Please login or sign up to access the site</p>
+        
+        <button id="signup-btn" class="btn btn-success">Sign Up</button><br>
+        <button id="login-btn" class="btn btn-success mr-3">Login</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-5r5A7TeMby+qxu/Q7UEgoKbEgyVudZ/s9z9XjKkYZFk0A0w2Q97dt1fzpdKjJlDi"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"
+        integrity="sha384-EU1XibW2OXfjlHN+UyGJQC0Pnq3z+4m4NpQLzfu7hhKXQ/CmYZOStgyDwSUrKtkj"
+        crossorigin="anonymous"></script>
+
+    <script>
+        const loginBtn = document.querySelector('#login-btn');
+        const signupBtn = document.querySelector('#signup-btn');
+
+        signupBtn.addEventListener('click', () => {
+            window.location.href = '/register.html';
+        });
+         loginBtn.addEventListener('click', () => {
+                window.location.href = '/login.html';
+            });
+    </script>
+</body>
+
+</html>
