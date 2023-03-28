@@ -31,22 +31,8 @@ using with monogodb and redis to store in localstorage
 2.	MongoDB community edition and PHP_MONGODB.DLL 
 3.	Composer for installing extension module such as mongo and predis
 
-# Folder Structure
-<img width="571" alt="Screenshot 2022-11-13 at 10 43 14 AM" src="https://user-images.githubusercontent.com/87518099/201506951-eafd9d32-9343-4574-9749-4299d23dab78.png">
-
 # vendor folder
 contains software installed through composer (for connecting PHP with mongodb and redis backend)
-
-# AK folder contains the following webpages
-
-- Login.html
-- Profile.html
-- Register.html
-
-# Flow of working
-1.	Register.html
-2.	Login.html
-3.	Profile.html
 
 # XAMPP Server
 
