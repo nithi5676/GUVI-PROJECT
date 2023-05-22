@@ -13,7 +13,7 @@
               });
               });
  
- `  `
+ "  "
             $("#signupForm").validate({
                 // in 'rules' user have to specify all the constraints for respective fields
                 rules: {
